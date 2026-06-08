@@ -24,7 +24,7 @@ def timer(func):
 def sum_to_n(n):
     return sum(range(1,n+1))
 print(sum_to_n(100000))
-    # ---------习3: 重试装饰器 ----------
+    # ---------练习3: 重试装饰器 ----------
 def retry(max_attempt=3,delay=1):
     def wrapper1(fn):
         def wrapper2(*args,**kwargs):
